@@ -1,0 +1,32 @@
+{
+  "name": "proyecto-clases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpilar": "npx babel src/ -d dist/ --config-file ./babel.config.json",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjramirez1/proyecto-clases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjramirez1/proyecto-clases/issues"
+  },
+  "homepage": "https://github.com/mjramirez1/proyecto-clases#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
+  }
+}
